@@ -16,7 +16,7 @@ int main()
     int sum = 0;
     int difference = 0;
     int product = 0;
-    int ratio = 0;
+    double ratio = 0.0;
     std::cout << "Write 2 integer values: ";
     std::cin >> val1 >> val2;
     if(val1 < val2)
@@ -25,7 +25,7 @@ int main()
         std::cout << val2 << " is larger\n";
         difference = val2 - val1;
     }
-    else if (val2 < val2)
+    else if (val2 < val1)
     {
         std::cout << val2 << " is smaller\n";
         std::cout << val1 << " is larger\n";
@@ -35,13 +35,14 @@ int main()
     {
         std::cout << "Values are equal\n";
     }
-    std::cout << difference << " is the differnece\n";
+    ratio = val1 / val2;
     sum = val1 + val2;
-    std::cout << sum << " is the sum\n";
     product = val1 * val2;
-    std::cout << product << " is the product\n";
 
-    if()
+    std::cout << product << " is the product\n";
+    std::cout << ratio << " is the ratio of " << val1 << ":" << val2 << "\n";
+    std::cout << difference << " is the differnece\n";
+    std::cout << sum << " is the sum\n";
     //determind ratio of all the values above.
     
 
