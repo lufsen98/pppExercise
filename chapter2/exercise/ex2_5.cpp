@@ -11,12 +11,12 @@ these values and report them to the user.*/
 int main()
 { 
     //save values
-    int val1 = 0;
-    int val2 = 0;
-    int sum = 0;
-    int difference = 0;
-    int product = 0;
-    int ratio = 0;
+    double val1 = 0.0;
+    double val2 = 0.0;
+    double sum = 0.0;
+    double difference = 0.0;
+    double product = 0.0;
+    double ratio = 0.0;
     std::cout << "Write 2 integer values: ";
     std::cin >> val1 >> val2;
     if(val1 < val2)
